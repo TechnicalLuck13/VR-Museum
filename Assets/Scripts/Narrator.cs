@@ -7,7 +7,7 @@ public class Narrator : MonoBehaviour
     [SerializeField] private Transform target;
     [SerializeField] private float activationDistance = 3.0f;
     [SerializeField] private float resetDelay = 10.0f;
-    [SerializeField] private string triggerName = "StartAnim";
+    [SerializeField] private string triggerName = "NextAnim";
     private float timer;
     private Animator anim;
     private AudioSource aud;
@@ -27,7 +27,7 @@ public class Narrator : MonoBehaviour
     }
     void StartAnim()
     {
-        anim.SetTrigger("StartAnim");
+        anim.SetTrigger("NextAnim");
         aud.Play();
         timer = resetDelay;
     }
