@@ -2,7 +2,12 @@ fileFormatVersion: 2
 guid: b40a57f57ac064844a8b2c453c4fa655
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Cylinder_001/Cylinder_001:000:'
+    second: {fileID: 2100000, guid: 0ed7080e8d43a5a46becb633ebe3e935, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
